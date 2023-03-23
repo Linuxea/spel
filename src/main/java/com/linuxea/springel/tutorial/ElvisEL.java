@@ -15,6 +15,6 @@ public class ElvisEL implements ApplicationRunner {
     Boolean value = spelExpressionParser.parseExpression("1 == 1 ? true : false")
         .getValue(Boolean.class);
     System.out.println(value);
-    
+
   }
 }
